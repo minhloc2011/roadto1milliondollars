@@ -7,5 +7,5 @@
 </style>
 
 <a href="/">
-  <img alt="Sapper" src='logo-192.png'>
+  <img alt="Sapper" src='/images/bull_logo.png'>
 </a>

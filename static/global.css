@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: Merriweather, serif;
+  font-family: Raleway, serif;
   font-size: 16px;
   line-height: 1.6;
   color: #36393b;
@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-family: Merriweather, serif;
+  font-family: Raleway, serif;
   font-size: 4em;
   margin: 0 0 1em 0;
 }

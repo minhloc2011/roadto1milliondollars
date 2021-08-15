@@ -1,11 +1,7 @@
 ---
-title: Markdown Test Page
+title: Markdown Test trang
 date: 2019-06-16T12:51:00.000Z
-font: arial,sans-serif
 ---
-
-
-Ngày mai sẽ khác. Cho con tim này cứ rã rời, qua đêm nay rồi sẽ khác thôi.
 
 Use it as a starting point for applying your own styles.
 

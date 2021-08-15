@@ -1,14 +1,10 @@
-# sapper-blog-template
+# road-to-1-million-dollars
 
 A starter template for building markdown-powered blogs with [Sapper](https://github.com/sveltejs/sapper) and [Svelte](https://github.com/sveltejs/svelte).
-
-### 👉 [Demo](https://sapper-blog-template.netlify.com/)
 
 ## ✨ Getting started
 
 ```bash
-npx degit Charca/sapper-blog-template my-blog
-cd my-blog
 npm install # or yarn!
 npm run dev
 ```
@@ -37,11 +33,3 @@ This is where your markdown posts live in. All `.md` files in this directory are
 - Everything between the start of the post and the `<!-- more -->` tag becomes the article's "excerpt".
 - Frontmatter properties supported are `title` and `date`.
 
-## 🚀 Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Charca/sapper-blog-template)
-
-
-## 🐛 Bugs and feedback
-
-Sapper is in early development, and may have the odd rough edge here and there. Please be vocal over on the [Sapper issue tracker](https://github.com/sveltejs/sapper/issues).
