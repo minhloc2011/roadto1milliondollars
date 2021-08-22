@@ -1,26 +1,12 @@
-<style>
-  div {
-    align-items: center;
-    display: flex;
-  }
+<script>
+  import Maket2011 from './profile/Maket2011Profile.svelte'
+  import Admin from './profile/AdminProfile.svelte'
 
-  img {
-    width: 100px;
-    height: 100px;
-    border-radius: 100px;
-    /* border: 3px solid #fd6378; */
-    display: block;
-    margin-right: 20px;
-  }
+  export let author
+</script>
 
-  p {
-    font-size: 1.125rem;
-  }
-</style>
-
-<div>
-  <img src="/images/p.jpg" alt="Maket 2011">
-  <p>
-    Hi, I'm <strong>Maket2011</strong>. I'm a software engineer from DN, Vietnam.
-  </p>
-</div>
+{#if author == 'maket2011'}
+    <Maket2011 />
+{:else}
+    <Admin />
+{/if}

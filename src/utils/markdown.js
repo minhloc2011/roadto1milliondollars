@@ -43,7 +43,7 @@ export default () => ({
 
     const fileName = path.basename(id);
     const { data, content: rawContent } = matter(md);
-    const { title, date } = data;
+    const { title, date, author } = data;
     const slug = fileName.split('.')[0];
     let content = rawContent;
     let excerpt = '';
@@ -62,6 +62,7 @@ export default () => ({
     const exportFromModule = JSON.stringify({
       title: title || slug,
       slug,
+      author: author || 'Admin',
       html,
       date,
       excerpt,
